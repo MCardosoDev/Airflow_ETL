@@ -1,0 +1,42 @@
+[2023-05-12T19:06:44.507+0000] {processor.py:156} INFO - Started process (PID=45) to work on /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:06:44.514+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2023-05-12T19:06:44.519+0000] {logging_mixin.py:149} INFO - [2023-05-12T19:06:44.519+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:06:44.884+0000] {logging_mixin.py:149} INFO - [2023-05-12T19:06:44.820+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 6, in <module>
+    from operators.twitter_operator import TwitterOperator
+ModuleNotFoundError: No module named 'operators'
+[2023-05-12T19:06:44.917+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:06:45.230+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.730 seconds
+[2023-05-12T19:08:22.265+0000] {processor.py:156} INFO - Started process (PID=116) to work on /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:08:22.430+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2023-05-12T19:08:22.444+0000] {logging_mixin.py:149} INFO - [2023-05-12T19:08:22.443+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:08:22.932+0000] {logging_mixin.py:149} INFO - [2023-05-12T19:08:22.765+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 6, in <module>
+    from operators.twitter_operator import TwitterOperator
+ModuleNotFoundError: No module named 'operators'
+[2023-05-12T19:08:22.938+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:08:23.565+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/twitter_dag.py took 1.312 seconds
+[2023-05-12T19:09:03.382+0000] {processor.py:156} INFO - Started process (PID=161) to work on /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:09:03.387+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2023-05-12T19:09:03.390+0000] {logging_mixin.py:149} INFO - [2023-05-12T19:09:03.389+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:09:03.581+0000] {logging_mixin.py:149} INFO - [2023-05-12T19:09:03.449+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 6, in <module>
+    from operators.twitter_operator import TwitterOperator
+ModuleNotFoundError: No module named 'operators'
+[2023-05-12T19:09:03.586+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2023-05-12T19:09:04.572+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/twitter_dag.py took 1.196 seconds
